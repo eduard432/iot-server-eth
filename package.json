@@ -1,0 +1,32 @@
+{
+  "name": "express-example-starter",
+  "version": "1.0.0",
+  "description": "An Express-based application skeleton",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js localhost 8080"
+  },
+  "dependencies": {
+    "@metamask/eth-sig-util": "4.0.0",
+    "connect-mongo": "4.6.0",
+    "cors": "2.8.5",
+    "dotenv": "10.0.0",
+    "ethereumjs-util": "7.1.3",
+    "ethers": "5.5.3",
+    "express": "~4.16.1",
+    "express-session": "1.17.2",
+    "express-validator": "6.14.0",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "6.1.5",
+    "morgan": "~1.9.1",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "expressjs",
+    "express"
+  ]
+}
